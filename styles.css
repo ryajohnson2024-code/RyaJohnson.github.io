@@ -1,0 +1,101 @@
+/* Rya Johnson */
+
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page Background */
+body {
+    background-image: url("blue-smoke-background-textured-wallpaper-high-resolution_53876-128239.avif");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Trebuchet MS', sans-serif;
+    padding: 20px;
+}
+
+/* Header Card */
+header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Profile Picture */
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 4px solid white;
+    margin-bottom: 15px;
+}
+
+/* Section Cards */
+section {
+    background-color: rgba(255, 255, 255, 0.95);
+    width: 80%;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+/* Name */
+h1 {
+    font-size: 3rem;
+    color: #89CFF0;
+    margin: 15px 0;
+}
+
+/* Section Titles */
+h2 {
+    color: #89CFF0;
+    margin-bottom: 15px;
+}
+
+/* Subheadings */
+h3 {
+    color: #89CFF0;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+/* Text */
+p, li {
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+/* Lists */
+ul, ol {
+    margin-left: 25px;
+}
+
+/* Links */
+a {
+    color: #89CFF0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}

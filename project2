@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Project 2 - Turtle Graphics Beach Scene</title>
+</head>
+<body>
+    <h1>Project 2 - Turtle Graphics Beach Scene</h1>
+
+    <p>This project was created in Python using the Turtle Graphics library.</p>
+
+    <p>
+        The program draws a sunny beach scene with water, sand,
+        a sun, a palm tree, and a sandcastle.
+    </p>
+
+    <a href="AboutMe.html">Back to About Me</a>
+</body>
+</html>

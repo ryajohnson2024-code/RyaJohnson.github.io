@@ -99,3 +99,40 @@ footer {
     margin: 20px auto;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
 }
+
+
+/* extra*/
+.project-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.project-card {
+    background-color: #dce7f2;
+    border: 2px solid #b7d8ee;
+    border-radius: 25px;
+    padding: 25px;
+    width: 300px;
+    min-height: 250px;
+}
+
+.project-card h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.project-card p {
+    font-size: 1.2rem;
+}
+
+.project-card a {
+    text-decoration: none;
+    color: #8b4ab8;
+}
+
+.project-card a:hover {
+    text-decoration: underline;
+}

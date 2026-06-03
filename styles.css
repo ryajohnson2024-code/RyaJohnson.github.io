@@ -105,34 +105,29 @@ footer {
 .project-container {
     display: flex;
     gap: 20px;
-    justify-content: center;
     flex-wrap: wrap;
-    margin-top: 20px;
 }
 
 .project-card {
-    background-color: #dce7f2;
-    border: 2px solid #b7d8ee;
-    border-radius: 25px;
+    flex: 1;
+    min-width: 250px;
+    background-color: #e8f2fb;
+    border: 2px solid #b7d9f5;
+    border-radius: 30px;
     padding: 25px;
-    width: 300px;
-    min-height: 250px;
+
+    text-decoration: none;
+    color: inherit;
+    display: block;
+
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
 }
 
 .project-card h3 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.project-card p {
-    font-size: 1.2rem;
-}
-
-.project-card a {
-    text-decoration: none;
-    color: #8b4ab8;
-}
-
-.project-card a:hover {
-    text-decoration: underline;
+    color: #8b44c0;
+    margin-bottom: 15px;
 }

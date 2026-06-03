@@ -47,6 +47,26 @@
         and combine simple shapes to create a complete scene.
     </p>
 </section>
+<section>
+    <h2>Sample Code</h2>
+
+    <p>
+        This function draws a circle that is used to create elements of the beach scene.
+    </p>
+
+    <pre><code>
+def draw_circle(t, radius, fill_color=None):
+    """Draw a circle with optional fill"""
+    if fill_color:
+        t.fillcolor(fill_color)
+        t.begin_fill()
+
+    t.circle(radius)
+
+    if fill_color:
+        t.end_fill()
+    </code></pre>
+</section>
 
 <section>
     <a href="index.html">Back to About Me</a>

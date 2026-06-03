@@ -51,20 +51,21 @@
     <h2>Sample Code</h2>
 
     <p>
-        This function draws a circle that is used to create elements of the beach scene.
+        This code creates the sun in my beach scene using Turtle Graphics.
+        The turtle moves to a specific location and draws a yellow circle.
     </p>
 
+    <ul>
+        <li><strong>jump_to:</strong> Moves the turtle without drawing.</li>
+        <li><strong>x, y:</strong> Coordinates where the sun is placed.</li>
+        <li><strong>draw_circle:</strong> Draws and fills the sun.</li>
+    </ul>
+
     <pre><code>
-def draw_circle(t, radius, fill_color=None):
-    """Draw a circle with optional fill"""
-    if fill_color:
-        t.fillcolor(fill_color)
-        t.begin_fill()
-
-    t.circle(radius)
-
-    if fill_color:
-        t.end_fill()
+# Draw the sun
+jump_to(t, 200, 200)
+t.pencolor("yellow")
+draw_circle(t, 65, "yellow")
     </code></pre>
 </section>
 
